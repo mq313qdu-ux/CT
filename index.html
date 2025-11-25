@@ -2146,7 +2146,7 @@
       const progress = ((currentQuestion + 1) / questions.length) * 100;
       document.getElementById('progressBar').style.width = progress + '%';
       document.getElementById('questionCounter').textContent = `السؤال ${currentQuestion + 1} من ${questions.length}`;
-      document.getElementById('scoreCounter').textContent = `النت��جة: ${score}`;
+      document.getElementById('scoreCounter').textContent = `النتيجة: ${score}`;
 
       const userAnswer = userAnswers.find(a => a.question === currentQuestion);
       const isAnswered = userAnswer !== undefined;
